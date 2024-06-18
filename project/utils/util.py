@@ -19,9 +19,9 @@ class abreviacaoNomeUtil:
             else:
                 # abreviar um item do nome e adicionar um espaço por vez e se o tamanho do nome for maior que 30 caracteres abreviar proximo item
                 if len(abreviado) > 30:
-                    abreviado += self.nome[i][0] + ' '
+                    abreviado = self.nome[i][0] + ' '
                 else:
-                    abreviado += self.nome[i] + ' '
+                    abreviado = self.nome[i] + ' '
 
         return abreviado
 
