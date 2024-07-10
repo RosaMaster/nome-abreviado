@@ -1,1 +1,0 @@
-listPreposicaoExclusao = ['  ', ' & ', ' e ', ' de ', ' da ', ' do ', ' des ', ' das ', ' dos ', ' E ', ' De ', ' Da ', ' Do ', ' Des ', ' Das ', ' Dos ']
