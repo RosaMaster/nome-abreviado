@@ -16,3 +16,5 @@ nome_abreviado = validador_nome_cliente.validacao_comprimento_nome(data['nome'],
 
 
 print(nome_abreviado)
+
+print('\n******* objeto JSON ******')

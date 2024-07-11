@@ -2,6 +2,17 @@ import re
 
 class AbreviaNome:
 
+    def regex_tratando_nome(self, nome_completo):
+        ''' Função que trata um nome completo ''' 
+
+        characteres = str.maketrans("@áàâãäéèêëíìîïóòôõöúùûüçÁÀÂÃÄÉÈÊËÍÌÎÏÓÒÔÕÖÚÙÛÜÇ", "aaaaaaeeeeiiiiooooouuuucAAAAAEEEEIIIIOOOOOUUUUC")
+
+        nome_string = nome_string.translate(characteres)
+
+        
+
+        return nome_string
+
     def regex_replace(self, nome_completo):
         ''' Função que remove preposições e caracteres especiais de um nome completo '''
 
